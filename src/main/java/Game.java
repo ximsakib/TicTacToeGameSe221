@@ -101,17 +101,7 @@ if (b7 == ("X") && b8 == ("X") && b9 == ("X")){
     
 }
 
-if (b1 == ("X") && b5 == ("X") && b9 == ("X")){
-    JOptionPane.showMessageDialog(this,firstName + " Win","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
-    xCount++;
-    gameScore();
-    
-    textbtn1.setBackground(Color.GREEN);
-    textbtn5.setBackground(Color.GREEN);
-    textbtn9.setBackground(Color.GREEN);
-    
-    
-}
+
 
 
 if (b3 == ("X") && b5 == ("X") && b7 == ("X")){
