@@ -243,8 +243,8 @@ public class Welcome extends javax.swing.JFrame {
 
     private void loginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginMouseClicked
         
-        //Menu menu = new Menu();
-       // menu.show();
+        Game menu = new Game();
+        menu.show();
         dispose();
     }//GEN-LAST:event_loginMouseClicked
                                
