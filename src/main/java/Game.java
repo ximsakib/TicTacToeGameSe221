@@ -163,7 +163,99 @@ if (b3 == ("X") && b6 == ("X") && b9 == ("X")){
 }
 
 //Player o win
+if (b1 == ("O") && b2 == ("O") && b3 == ("O")){
+    JOptionPane.showMessageDialog(this,SecondName + " Win","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+    oCount++;
+    gameScore();
+    
+    textbtn1.setBackground(Color.GREEN);
+    textbtn2.setBackground(Color.GREEN);
+    textbtn3.setBackground(Color.GREEN);
+}
 
+if (b4 == ("O") && b5 == ("O") && b6 == ("O")){
+    JOptionPane.showMessageDialog(this,SecondName + " Win","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+    oCount++;
+    gameScore();
+    
+    textbtn4.setBackground(Color.GREEN);
+    textbtn5.setBackground(Color.GREEN);
+    textbtn6.setBackground(Color.GREEN);
+    
+    
+}
+if (b7 == ("O") && b8 == ("O") && b9 == ("O")){
+    JOptionPane.showMessageDialog(this,SecondName + " Win","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+    oCount++;
+    gameScore();
+    
+    textbtn7.setBackground(Color.GREEN);
+    textbtn8.setBackground(Color.GREEN);
+    textbtn9.setBackground(Color.GREEN);
+    
+    
+}
+
+if (b1 == ("O") && b5 == ("O") && b9 == ("O")){
+    JOptionPane.showMessageDialog(this,SecondName + " Win","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+    oCount++;
+    gameScore();
+    
+    textbtn1.setBackground(Color.GREEN);
+    textbtn5.setBackground(Color.GREEN);
+    textbtn9.setBackground(Color.GREEN);
+    
+    
+}
+
+
+if (b3 == ("O") && b5 == ("O") && b7 == ("O")){
+    JOptionPane.showMessageDialog(this,SecondName + " Win","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+    oCount++;
+    gameScore();
+    
+    textbtn3.setBackground(Color.GREEN);
+    textbtn5.setBackground(Color.GREEN);
+    textbtn7.setBackground(Color.GREEN);
+    
+    
+}
+
+if (b2 == ("O") && b5 == ("O") && b8 == ("O")){
+    JOptionPane.showMessageDialog(this,SecondName + " Win","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+    oCount++;
+    gameScore();
+    
+    textbtn2.setBackground(Color.GREEN);
+    textbtn5.setBackground(Color.GREEN);
+    textbtn8.setBackground(Color.GREEN);
+    
+    
+}
+       
+if (b1 == ("O") && b4 == ("O") && b7 == ("O")){
+    JOptionPane.showMessageDialog(this,SecondName + " Win","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+    oCount++;
+    gameScore();
+    
+    textbtn1.setBackground(Color.GREEN);
+    textbtn4.setBackground(Color.GREEN);
+    textbtn7.setBackground(Color.GREEN);
+    
+    
+}
+
+if (b3 == ("O") && b6 == ("O") && b9 == ("O")){
+    JOptionPane.showMessageDialog(this,SecondName + " Win","Tic Tac Toe",JOptionPane.INFORMATION_MESSAGE);
+    oCount++;
+    gameScore();
+    
+    textbtn3.setBackground(Color.GREEN);
+    textbtn6.setBackground(Color.GREEN);
+    textbtn9.setBackground(Color.GREEN);
+    
+    
+}
   /// finish       
     }
     /**
