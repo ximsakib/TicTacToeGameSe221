@@ -624,8 +624,8 @@ if (b3 == ("X") && b6 == ("X") && b9 == ("X")){
     }//GEN-LAST:event_textExitActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-          Welcome menu = new Welcome();
-           menu.show();
+          Welcome welcome = new Welcome();
+           welcome.show();
            dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
