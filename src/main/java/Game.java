@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author ZIM
+ * @author ZIM,LAMIA,MERAZ
  */
 public class Game extends javax.swing.JFrame {
 
@@ -716,7 +716,7 @@ if (b3 == ("O") && b6 == ("O") && b9 == ("O")){
     }//GEN-LAST:event_textExitActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-          Welcome menu = new Welcome();
+          Menu menu = new Menu();
            menu.show();
            dispose();
     }//GEN-LAST:event_jButton1ActionPerformed

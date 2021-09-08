@@ -1,3 +1,4 @@
+//imported library
 
 import java.awt.Color;
 import javax.swing.JLabel;
@@ -243,8 +244,8 @@ public class Welcome extends javax.swing.JFrame {
 
     private void loginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginMouseClicked
         
-        Game game = new Game();
-        game.show();
+        Menu menu = new Menu();
+        menu.show();
         dispose();
     }//GEN-LAST:event_loginMouseClicked
                                
